@@ -1,0 +1,16 @@
+
+material viewportPlane
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref TextureShowPS
+            {
+            }
+		}
+	}
+}

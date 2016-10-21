@@ -1,0 +1,16 @@
+
+material TextureShow
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref TextureShowPS
+            {
+            }
+		}
+	}
+}

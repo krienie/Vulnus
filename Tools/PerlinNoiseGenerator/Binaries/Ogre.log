@@ -1,0 +1,187 @@
+00:28:16: Creating resource group General
+00:28:16: Creating resource group Internal
+00:28:16: Creating resource group Autodetect
+00:28:16: SceneManagerFactory for type 'DefaultSceneManager' registered.
+00:28:16: Registering ResourceManager for type Material
+00:28:16: Registering ResourceManager for type Mesh
+00:28:16: Registering ResourceManager for type Skeleton
+00:28:16: MovableObjectFactory for type 'ParticleSystem' registered.
+00:28:16: ArchiveFactory for archive type FileSystem registered.
+00:28:16: ArchiveFactory for archive type Zip registered.
+00:28:16: ArchiveFactory for archive type EmbeddedZip registered.
+00:28:16: DDS codec registering
+00:28:16: FreeImage version: 3.16.0
+00:28:16: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+00:28:16: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,webp
+00:28:16: ETC codec registering
+00:28:16: Registering ResourceManager for type HighLevelGpuProgram
+00:28:16: Registering ResourceManager for type Compositor
+00:28:16: MovableObjectFactory for type 'Entity' registered.
+00:28:16: MovableObjectFactory for type 'Light' registered.
+00:28:16: MovableObjectFactory for type 'BillboardSet' registered.
+00:28:16: MovableObjectFactory for type 'ManualObject' registered.
+00:28:16: MovableObjectFactory for type 'BillboardChain' registered.
+00:28:16: MovableObjectFactory for type 'RibbonTrail' registered.
+00:28:16: Loading library .\RenderSystem_Direct3D11
+00:28:16: Installing plugin: D3D11 RenderSystem
+00:28:16: D3D11 : Direct3D11 Rendering Subsystem created.
+00:28:17: D3D11: Driver Detection Starts
+00:28:17: D3D11: Driver Detection Ends
+00:28:17: Plugin successfully installed
+00:28:17: *-*-* OGRE Initialising
+00:28:17: *-*-* Version 1.10.0unstable (Xalafu)
+00:28:17: Added resource location '../Assets' of type 'FileSystem' to resource group 'General'
+00:28:17: D3D11 : RenderSystem Option: Full Screen = No
+00:28:17: D3D11 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+00:28:17: D3D11 : RenderSystem Option: VSync = Yes
+00:28:17: CPU Identifier & Features
+00:28:17: -------------------------
+00:28:17:  *   CPU ID: Genu: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+00:28:17:  *      SSE: yes
+00:28:17:  *     SSE2: yes
+00:28:17:  *     SSE3: yes
+00:28:17:  *      MMX: yes
+00:28:17:  *   MMXEXT: yes
+00:28:17:  *    3DNOW: no
+00:28:17:  * 3DNOWEXT: no
+00:28:17:  *     CMOV: yes
+00:28:17:  *      TSC: yes
+00:28:17:  *      FPU: yes
+00:28:17:  *      PRO: yes
+00:28:17:  *       HT: no
+00:28:17: -------------------------
+00:28:17: D3D11 : Subsystem Initialising
+00:28:17: ***************************************
+00:28:17: *** D3D11 : Subsystem Initialized OK ***
+00:28:17: ***************************************
+00:28:17: D3D11RenderSystem::_createRenderWindow "mainRenderWindow", 100x30 windowed  miscParams: externalWindowHandle=3083764 useNVPerfHUD=true 
+00:28:17: D3D11 : Created D3D11 Rendering Window 'mainRenderWindow' : 100x30, 32bpp
+00:28:17: D3D11 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+00:28:17: Registering ResourceManager for type Texture
+00:28:17: Registering ResourceManager for type GpuProgram
+00:28:17: RenderSystem capabilities
+00:28:17: -------------------------
+00:28:17: RenderSystem Name: Direct3D11 Rendering Subsystem
+00:28:17: GPU Vendor: nvidia
+00:28:17: Device Name: NVIDIA GeForce GTX 780
+00:28:17: Driver Version: 21.21.13.7557
+00:28:17:  * Fixed function pipeline: no
+00:28:17:  * Hardware generation of mipmaps: yes
+00:28:17:  * Texture blending: yes
+00:28:17:  * Anisotropic texture filtering: yes
+00:28:17:  * Dot product texture operation: yes
+00:28:17:  * Cube mapping: yes
+00:28:17:  * Hardware stencil buffer: yes
+00:28:17:    - Stencil depth: 8
+00:28:17:    - Two sided stencil support: yes
+00:28:17:    - Wrap stencil values: yes
+00:28:17:  * Hardware vertex / index buffers: yes
+00:28:17:  * 32-bit index buffers: yes
+00:28:17:  * Vertex programs: yes
+00:28:17:  * Number of floating-point constants for vertex programs: 512
+00:28:17:  * Number of integer constants for vertex programs: 16
+00:28:17:  * Number of boolean constants for vertex programs: 16
+00:28:17:  * Fragment programs: yes
+00:28:17:  * Number of floating-point constants for fragment programs: 512
+00:28:17:  * Number of integer constants for fragment programs: 16
+00:28:17:  * Number of boolean constants for fragment programs: 16
+00:28:17:  * Geometry programs: yes
+00:28:17:  * Number of floating-point constants for geometry programs: 512
+00:28:17:  * Number of integer constants for geometry programs: 16
+00:28:17:  * Number of boolean constants for geometry programs: 16
+00:28:17:  * Tessellation Hull programs: yes
+00:28:17:  * Number of floating-point constants for tessellation hull programs: 512
+00:28:17:  * Number of integer constants for tessellation hull programs: 16
+00:28:17:  * Number of boolean constants for tessellation hull programs: 16
+00:28:17:  * Tessellation Domain programs: yes
+00:28:17:  * Number of floating-point constants for tessellation domain programs: 512
+00:28:17:  * Number of integer constants for tessellation domain programs: 16
+00:28:17:  * Number of boolean constants for tessellation domain programs: 16
+00:28:17:  * Compute programs: yes
+00:28:17:  * Number of floating-point constants for compute programs: 512
+00:28:17:  * Number of integer constants for compute programs: 16
+00:28:17:  * Number of boolean constants for compute programs: 16
+00:28:17:  * Supported Shader Profiles: cs_4_0 cs_4_1 cs_5_0 ds_5_0 gs_4_0 gs_4_1 gs_5_0 hlsl hs_5_0 ps_4_0 ps_4_0_level_9_1 ps_4_0_level_9_3 ps_4_1 ps_5_0 vs_4_0 vs_4_0_level_9_1 vs_4_0_level_9_3 vs_4_1 vs_5_0
+00:28:17:  * Texture Compression: yes
+00:28:17:    - DXT: yes
+00:28:17:    - VTC: no
+00:28:17:    - PVRTC: no
+00:28:17:    - ATC: no
+00:28:17:    - ETC1: no
+00:28:17:    - ETC2: no
+00:28:17:    - BC4/BC5: no
+00:28:17:    - BC6H/BC7: yes
+00:28:17:  * Scissor Rectangle: yes
+00:28:17:  * Hardware Occlusion Query: yes
+00:28:17:  * User clip planes: yes
+00:28:17:  * VET_UBYTE4 vertex element type: yes
+00:28:17:  * Infinite far plane projection: yes
+00:28:17:  * Hardware render-to-texture: yes
+00:28:17:  * Floating point textures: yes
+00:28:17:  * Non-power-of-two textures: yes
+00:28:17:  * 1d textures: yes
+00:28:17:  * Volume textures: yes
+00:28:17:  * Multiple Render Targets: 8
+00:28:17:    - With different bit depths: yes
+00:28:17:  * Point Sprites: yes
+00:28:17:  * Extended point parameters: yes
+00:28:17:  * Max Point Size: 256
+00:28:17:  * Vertex texture fetch: yes
+00:28:17:  * Number of world matrices: 0
+00:28:17:  * Number of texture units: 16
+00:28:17:  * Stencil buffer depth: 8
+00:28:17:  * Number of vertex blend matrices: 0
+00:28:17:    - Max vertex textures: 4
+00:28:17:    - Vertex textures shared: no
+00:28:17:  * Render to Vertex Buffer : yes
+00:28:17:  * Hardware Atomic Counters: no
+00:28:17: DefaultWorkQueue('Root') initialising on thread 355c.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 1d10 starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 41c0 starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 2608 starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread c2c starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 2058 starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 3a98 starting.
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 1b20 starting.
+00:28:17: Particle Renderer Type 'billboard' registered
+00:28:17: DefaultWorkQueue('Root')::WorkerFunc - thread 3fe8 starting.
+00:28:18: Parsing scripts for resource group Autodetect
+00:28:18: Finished parsing scripts for resource group Autodetect
+00:28:18: Creating resources for group Autodetect
+00:28:18: All done
+00:28:18: Parsing scripts for resource group General
+00:28:18: Parsing script Shaders.material
+00:28:18: Parsing script textureshow.material
+00:28:18: Parsing script viewportPlane.material
+00:28:18: Finished parsing scripts for resource group General
+00:28:18: Creating resources for group General
+00:28:18: All done
+00:28:18: Parsing scripts for resource group Internal
+00:28:18: Finished parsing scripts for resource group Internal
+00:28:18: Creating resources for group Internal
+00:28:18: All done
+00:28:18: Mesh: Loading viewportPlane.mesh.
+00:28:18: WARNING: viewportPlane.mesh is an older format ([MeshSerializer_v1.8]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+00:28:18: Can't assign material NoMaterial to SubEntity of showTexPlane because this Material does not exist. Have you forgotten to define it in a .material script?
+00:28:21: DefaultWorkQueue('Root') shutting down on thread 355c.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 3a98 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 1b20 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 41c0 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread c2c stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 3fe8 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 1d10 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 2608 stopped.
+00:28:21: DefaultWorkQueue('Root')::WorkerFunc - thread 2058 stopped.
+00:28:21: *-*-* OGRE Shutdown
+00:28:21: Unregistering ResourceManager for type Compositor
+00:28:21: Unregistering ResourceManager for type Skeleton
+00:28:21: Unregistering ResourceManager for type Mesh
+00:28:21: Unregistering ResourceManager for type HighLevelGpuProgram
+00:28:21: Uninstalling plugin: D3D11 RenderSystem
+00:28:21: D3D11 : Shutting down cleanly.
+00:28:21: Unregistering ResourceManager for type Texture
+00:28:21: Unregistering ResourceManager for type GpuProgram
+00:28:21: D3D11 : Direct3D11 Rendering Subsystem destroyed.
+00:28:21: Plugin successfully uninstalled
+00:28:21: Unloading library .\RenderSystem_Direct3D11
+00:28:21: Unregistering ResourceManager for type Material

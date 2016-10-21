@@ -1,0 +1,17 @@
+
+material TextureBlend
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref TextureBlendPS
+            {
+				param_named lerpValue float 0.0
+            }
+		}
+	}
+}

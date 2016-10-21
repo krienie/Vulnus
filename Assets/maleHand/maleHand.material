@@ -1,0 +1,44 @@
+
+material maleHand
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref HandVS
+            {
+            }
+			tessellation_hull_program_ref HandHS
+			{
+			}
+			tessellation_domain_program_ref HandDS
+			{
+			}
+            fragment_program_ref HandPS
+            {
+            }
+
+			texture_unit Hand_TXTR.tif
+			{
+				filtering anisotropic
+				max_anisotropy 16
+				texture Hand_TXTR.tif
+			}
+
+			texture_unit Hand_NM.tif
+			{
+				texture Hand_NM.tif
+			}
+
+			texture_unit Hand_Spec.tif
+			{
+				texture Hand_Spec.tif
+			}
+
+			texture_unit Hand_Height.tif
+			{
+				texture Hand_Height.tif
+			}
+		}
+	}
+}

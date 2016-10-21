@@ -1,0 +1,14 @@
+
+vertex_program MinimalScreenspaceVS hlsl
+{
+	source MinimalScreenspaceVS.hlsl
+	target vs_5_0
+	entry_point main
+}
+
+fragment_program TextureShowPS hlsl
+{
+	source TextureShowPS.hlsl
+	target ps_5_0
+	entry_point main
+}

@@ -1,0 +1,32 @@
+
+material maleHandNails
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref MinimalShaderVS
+            {
+            }
+            fragment_program_ref NailShaderPS
+            {
+            }
+
+			texture_unit Nails_TXTR.tif
+			{
+				filtering anisotropic
+				max_anisotropy 16
+				texture Nails_TXTR.tif
+			}
+
+			texture_unit Nails_NM.tif
+			{
+				//filtering anisotropic
+				//max_anisotropy 16
+				texture Nails_NM.tif
+			}
+		}
+
+	}
+
+}

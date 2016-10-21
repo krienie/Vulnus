@@ -1,0 +1,23 @@
+
+material viewportPlane
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref HandShaderPS
+            {
+            }
+
+			texture_unit Hand_TXTR.tif
+			{
+				filtering anisotropic
+				max_anisotropy 16
+				texture Hand_TXTR.tif
+			}
+		}
+	}
+}

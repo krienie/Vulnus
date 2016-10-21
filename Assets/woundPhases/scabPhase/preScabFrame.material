@@ -1,0 +1,64 @@
+
+material preScabFrameAlbedo
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref PreScabFrameAlbedoPS
+            {
+            }
+		}
+	}
+}
+
+material preScabFrameNormal
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultNormalmapPS
+            {
+            }
+		}
+	}
+}
+
+material preScabFrameReflection
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultReflectionmapPS
+            {
+            }
+		}
+	}
+}
+
+material preScabFrameHeight
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultHeightmapPS
+            {
+            }
+		}
+	}
+}

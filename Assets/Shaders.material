@@ -1,0 +1,181 @@
+
+vertex_program MinimalShaderVS hlsl
+{
+	source MinimalShaderVS.hlsl
+	target vs_5_0
+	entry_point main
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+		param_named_auto worldMat world_matrix
+		param_named_auto worldMatInvTrans inverse_transpose_world_matrix
+		param_named_auto camPosition camera_position
+	}
+}
+
+vertex_program MinimalScreenspaceVS hlsl
+{
+	source MinimalScreenspaceVS.hlsl
+	target vs_5_0
+	entry_point main
+}
+
+fragment_program TimelineFrameSamplePS hlsl
+{
+	source TimelineFrameSamplePS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program TextureShowPS hlsl
+{
+	source TextureShowPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program TextureBlendPS hlsl
+{
+	source TextureBlendPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program WoundGlowBlendPS hlsl
+{
+	source WoundGlowBlendPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program OutputTexturePS hlsl
+{
+	source OutputTexturePS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+vertex_program HandVS hlsl
+{
+	source HandVS.hlsl
+	target vs_5_0
+	entry_point main
+
+	default_params
+	{
+		param_named_auto worldMat world_matrix
+		param_named_auto worldMatInvTrans inverse_transpose_world_matrix
+		param_named_auto camPosition camera_position
+	}
+}
+
+tessellation_hull_program HandHS hlsl
+{
+	source HandHS.hlsl
+	target hs_5_0
+	entry_point main
+}
+
+tessellation_domain_program HandDS hlsl
+{
+	source HandDS.hlsl
+	target ds_5_0
+	entry_point main
+
+	default_params
+	{
+		param_named_auto viewProjMat viewproj_matrix
+	}
+}
+
+fragment_program HandPS hlsl
+{
+	source HandPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program NailShaderPS hlsl
+{
+	source NailShaderPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program DefaultNormalmapPS hlsl
+{
+	source DefaultNormalmapPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program DefaultReflectionmapPS hlsl
+{
+	source DefaultReflectionmapPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program DefaultHeightmapPS hlsl
+{
+	source DefaultHeightmapPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program VasoconstrictionAlbedoPS hlsl
+{
+	source VasoconstrictionAlbedoPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program VasodilationAlbedoPS hlsl
+{
+	source VasodilationAlbedoPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program VasodilationReflectionPS hlsl
+{
+	source VasodilationReflectionPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program PreScabFrameAlbedoPS hlsl
+{
+	source PreScabFrameAlbedoPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program ScabFrameAlbedoPS hlsl
+{
+	source ScabFrameAlbedoPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program ScabFrameReflectionPS hlsl
+{
+	source ScabFrameReflectionPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program ScabFrameHeightPS hlsl
+{
+	source ScabFrameHeightPS.hlsl
+	target ps_5_0
+	entry_point main
+}
+
+fragment_program MaturationFrameAlbedoPS hlsl
+{
+	source MaturationFrameAlbedoPS.hlsl
+	target ps_5_0
+	entry_point main
+}

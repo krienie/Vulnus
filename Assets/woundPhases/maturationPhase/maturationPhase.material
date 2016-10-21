@@ -1,0 +1,64 @@
+
+material maturationFrameAlbedo
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref MaturationFrameAlbedoPS
+            {
+            }
+		}
+	}
+}
+
+material maturationFrameNormal
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultNormalmapPS
+            {
+            }
+		}
+	}
+}
+
+material maturationFrameReflection
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultReflectionmapPS
+            {
+            }
+		}
+	}
+}
+
+material maturationFrameHeight
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultHeightmapPS
+            {
+            }
+		}
+	}
+}

@@ -1,0 +1,64 @@
+
+material vasodilationFrameAlbedo
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref VasodilationAlbedoPS
+            {
+            }
+		}
+	}
+}
+
+material vasodilationFrameNormal
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultNormalmapPS
+            {
+            }
+		}
+	}
+}
+
+material vasodilationFrameReflection
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref VasodilationReflectionPS
+            {
+            }
+		}
+	}
+}
+
+material vasodilationFrameHeight
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultHeightmapPS
+            {
+            }
+		}
+	}
+}

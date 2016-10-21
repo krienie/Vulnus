@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{1eb18156-9e8f-47e7-9994-bdb025b8286c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{17291dd0-e401-4c96-af93-30d5ad64b5de}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{22b68e3a-b386-4856-a1a9-01f958c685e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Hand">
+      <UniqueIdentifier>{8693bc3f-446f-4cfd-ae8f-56a0f64856f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Convolution">
+      <UniqueIdentifier>{8c42a26b-2760-428f-b5e1-971622a2ed83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Noise">
+      <UniqueIdentifier>{98615e8d-326c-4638-9076-e981572dcbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\WoundTimeline">
+      <UniqueIdentifier>{3a9f52f1-3467-457c-8ec4-60e4cefbba94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\GradientEdge">
+      <UniqueIdentifier>{5a1cc896-7212-4d86-b8bf-5fd7fe8a6f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frames">
+      <UniqueIdentifier>{08724b72-820b-4ae6-95e7-fb0b0b290c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frames">
+      <UniqueIdentifier>{3724ba45-4534-4cbc-91ff-77fc203923a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames">
+      <UniqueIdentifier>{dce87452-d6d7-4f25-bb8c-fe0c0c35b73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames\VasoconstrictionFrame">
+      <UniqueIdentifier>{ae5bf94a-d8fe-4f9e-9913-8967a5532216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames\VasodilationFrame">
+      <UniqueIdentifier>{8d796312-ced3-4bec-986b-4f0bb6bc5eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames\PreScabFrame">
+      <UniqueIdentifier>{8c8256ba-79fa-4811-b658-2c97d92ddad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames\ScabFrame">
+      <UniqueIdentifier>{95f394c1-16c7-4fc5-987e-422c6052a214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\Frames\MaturationFrame">
+      <UniqueIdentifier>{52af7398-93ff-4343-adf1-01374855986a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VulnusEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VulnusEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VulnusEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_VulnusEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreRenderWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OgreRenderWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OgreRenderWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedResources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoundErosionFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoundShapePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseRendererGPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalmapGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiRTTSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolsDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolsDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientEdgeRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames\VasoconstrictionFrame.cpp">
+      <Filter>Source Files\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames\VasodilationFrame.cpp">
+      <Filter>Source Files\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames\MaturationFrame.cpp">
+      <Filter>Source Files\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames\PreScabFrame.cpp">
+      <Filter>Source Files\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames\ScabFrame.cpp">
+      <Filter>Source Files\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="WoundTimeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="VulnusEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VulnusEditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VulnusEditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OgreRenderWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ToolsDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ToolsDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WoundTimeline.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_VulnusEditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoundErosionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoundShapePainter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseRendererGPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalmapGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiRTTSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ToolsDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientEdgeRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames\VasoconstrictionFrame.h">
+      <Filter>Header Files\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames\VasodilationFrame.h">
+      <Filter>Header Files\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames\MaturationFrame.h">
+      <Filter>Header Files\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames\PreScabFrame.h">
+      <Filter>Header Files\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames\ScabFrame.h">
+      <Filter>Header Files\Frames</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VulnusEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Assets\MinimalScreenspaceVS.hlsl">
+      <Filter>Source Files\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\MinimalShaderVS.hlsl">
+      <Filter>Source Files\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\maleHand\NailShaderPS.hlsl">
+      <Filter>Source Files\shaders\Hand</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\ConvolutionKernelCS.hlsl">
+      <Filter>Source Files\shaders\Convolution</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\WoundErosionKernelCS.hlsl">
+      <Filter>Source Files\shaders\Convolution</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\SmoothNoiseShaderCS.hlsl">
+      <Filter>Source Files\shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\NoiseAverageCS.hlsl">
+      <Filter>Source Files\shaders\Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\HeightmapToNormalCS.hlsl">
+      <Filter>Source Files\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\DefaultNormalmapPS.hlsl">
+      <Filter>Source Files\shaders\Frames</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundTimeline\WidgetTimelineSamplingPS.hlsl">
+      <Filter>Source Files\shaders\WoundTimeline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\maleHand\HandVS.hlsl">
+      <Filter>Source Files\shaders\Hand</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\maleHand\HandDS.hlsl">
+      <Filter>Source Files\shaders\Hand</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\maleHand\HandHS.hlsl">
+      <Filter>Source Files\shaders\Hand</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\maleHand\HandPS.hlsl">
+      <Filter>Source Files\shaders\Hand</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\DefaultReflectionmapPS.hlsl">
+      <Filter>Source Files\shaders\Frames</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\DefaultHeightmapPS.hlsl">
+      <Filter>Source Files\shaders\Frames</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\TextureBlendPS.hlsl">
+      <Filter>Source Files\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\maturationPhase\MaturationFrameAlbedoPS.hlsl">
+      <Filter>Source Files\shaders\Frames\MaturationFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\maturationPhase\MaturationFrameGradientEdgeCS.hlsl">
+      <Filter>Source Files\shaders\Frames\MaturationFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\scabPhase\ScabFrameAlbedoPS.hlsl">
+      <Filter>Source Files\shaders\Frames\ScabFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\scabPhase\ScabFrameHeightPS.hlsl">
+      <Filter>Source Files\shaders\Frames\ScabFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\scabPhase\ScabFrameReflectionPS.hlsl">
+      <Filter>Source Files\shaders\Frames\ScabFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\vasoconstrictionDilation\VasodilationAlbedoPS.hlsl">
+      <Filter>Source Files\shaders\Frames\VasodilationFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\vasoconstrictionDilation\VasodilationReflectionPS.hlsl">
+      <Filter>Source Files\shaders\Frames\VasodilationFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\vasoconstrictionDilation\VasoconstrictionAlbedoPS.hlsl">
+      <Filter>Source Files\shaders\Frames\VasoconstrictionFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\scabPhase\PreScabFrameAlbedoPS.hlsl">
+      <Filter>Source Files\shaders\Frames\PreScabFrame</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\GradientEdgeCS.hlsl">
+      <Filter>Source Files\shaders\GradientEdge</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\OutputTexturePS.hlsl">
+      <Filter>Source Files\shaders\Frames</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\woundPhases\WoundGlowBlendPS.hlsl">
+      <Filter>Source Files\shaders\Frames</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\MaturationNoiseCS.hlsl">
+      <Filter>Source Files\shaders\Noise</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+
+material vasoconstrictionFrameAlbedo
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref VasoconstrictionAlbedoPS
+            {
+            }
+		}
+	}
+}
+
+material vasoconstrictionFrameNormal
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultNormalmapPS
+            {
+            }
+		}
+	}
+}
+
+material vasoconstrictionFrameReflection
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultReflectionmapPS
+            {
+            }
+		}
+	}
+}
+
+material vasoconstrictionFrameHeight
+{
+	technique
+	{
+		pass main
+		{
+			vertex_program_ref MinimalScreenspaceVS
+            {
+            }
+            fragment_program_ref DefaultHeightmapPS
+            {
+            }
+		}
+	}
+}

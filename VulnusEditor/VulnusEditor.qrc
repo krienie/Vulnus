@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/VulnusEditor">
+    <file>Wound_healing_phases.png</file>
+  </qresource>
+</RCC>
